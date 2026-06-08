@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culturas do Litoral - Agricultura Familiar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte externa para um visual mais limpo -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho / Menu -->
+    <header>
+        <div class="logo">Sustenta<span>Litoral</span></div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#culturas">Culturas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Hero (Banner Principal) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>A Força da Terra no Litoral Paranaense</h1>
+            <p>Conheça a agricultura familiar que alimenta nossa região com sustentabilidade, tradição e respeito à Mata Atlântica.</p>
+            <a href="#culturas" class="btn">Descubra as Culturas</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="container">
+        <h2 class="section-title">Nossa História, Nosso Chão</h2>
+        <div class="sobre-grid">
+            <div class="sobre-texto">
+                <p>A agricultura familiar no litoral do Paraná combina saberes tradicionais e preservação ambiental. Entre a Serra do Mar e o oceano, centenas de famílias dedicam-se ao cultivo responsável, garantindo alimentos frescos e movimentando a economia local.</p>
+                <p>Das encostas de Morretes às planícies de Guaratuba, cada produto carrega a identidade cultural caiçara e o compromisso com o futuro do nosso ecossistema.</p>
+            </div>
+            <div class="sobre-img">
+                <!-- Substitua pelo link da sua imagem de IA de um agricultor no litoral -->
+                <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=600&q=80" alt="Agricultura Familiar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Culturas Principais -->
+    <section id="culturas" class="culturas-section">
+        <div class="container">
+            <h2 class="section-title">Principais Cultivos</h2>
+            <div class="cards-grid">
+                
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=500&q=80" alt="Plantação de Banana">
+                    <div class="card-body">
+                        <h3>Banana</h3>
+                        <p>O litoral é um dos maiores produtores do estado. Cultivada de forma sustentável, a banana da região se destaca pelo sabor doce e relevância econômica.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1543257580-7269da773bf5?auto=format&fit=crop&w=500&q=80" alt="Palmito Pupunha">
+                    <div class="card-body">
+                        <h3>Palmito Pupunha</h3>
+                        <p>Uma alternativa ecológica que preserva a Mata Atlântica. A pupunha do litoral é macia, saborosa e colhida sem destruir a planta mãe.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80" alt="Produtos Orgânicos Diversos">
+                    <div class="card-body">
+                        <h3>Agroecologia</h3>
+                        <p>Raízes, tubérculos e hortaliças cultivados sem agrotóxicos. Respeito ao solo e saúde diretamente para a mesa dos paranaenses.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato interativa -->
+    <section id="contato" class="container">
+        <h2 class="section-title">Fale Conosco</h2>
+        <div class="contato-wrapper">
+            <form id="contactForm">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" rows="5" placeholder="Sua Mensagem ou Dúvida" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+            <div id="formFeedback" class="hidden"></div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Culturas do Litoral - Agricultura Familiar no Paraná. Desenvolvido com foco na sustentabilidade.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
